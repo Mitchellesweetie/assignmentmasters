@@ -1,0 +1,66 @@
+body {
+    background-color: #f8fafc;
+}
+
+.navbar {
+    backdrop-filter: blur(6px);
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #eef2ff 0%, #f8fafc 45%, #ffffff 100%);
+}
+
+.hero-image {
+    border-radius: 1rem;
+    box-shadow: 0 1rem 2rem rgba(15, 23, 42, 0.15);
+    object-fit: cover;
+    width: 100%;
+    min-height: 340px;
+}
+
+.project-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 1rem 2rem rgba(15, 23, 42, 0.12);
+}
+
+.section-card {
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 0.75rem 1.75rem rgba(15, 23, 42, 0.08);
+}
+
+.about-image,
+.profile-image {
+    border-radius: 1rem;
+    object-fit: cover;
+    width: 100%;
+}
+
+.about-image {
+    min-height: 320px;
+}
+
+.profile-image {
+    min-height: 420px;
+}
+
+.stats-card {
+    border: 0;
+    border-radius: 1rem;
+    background: #0f172a;
+    color: #fff;
+}
+
+.cta-banner {
+    background: linear-gradient(135deg, #e2e8f0 0%, #f8fafc 100%);
+}
+
+.contact-hero {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    color: #fff;
+    border-radius: 1rem;
+}
