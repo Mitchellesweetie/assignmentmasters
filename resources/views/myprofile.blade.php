@@ -6,7 +6,7 @@
             <div class="col-lg-4">
                 <div class="card section-card p-4">
                     <img class="profile-image mb-3" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=900&q=80" alt="Profile portrait">
-                    <h4 class="fw-bold mb-1">Mitchelle</h4>
+                    <h4 class="fw-bold mb-1">Jezebel</h4>
                     <p class="text-muted mb-3">Laravel Developer</p>
                     <div class="d-grid gap-2">
                         <a href="{{ route('contact') }}" class="btn btn-primary">Contact Me</a>
