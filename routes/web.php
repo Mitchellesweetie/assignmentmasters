@@ -17,6 +17,6 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 Route::get('/', [App\Http\Controllers\ProfileController::class, 'home'])->name('home');
-Route::get('/myprofile', [App\Http\Controllers\ProfileController::class, 'myprofile'])->name('myprofile');
+Route::get('/portfolio', [App\Http\Controllers\ProfileController::class, 'myprofile'])->name('myprofile');
 Route::get('/about', [App\Http\Controllers\ProfileController::class, 'about'])->name('about');
 Route::get('/contact', [App\Http\Controllers\ProfileController::class, 'contact'])->name('contact');
